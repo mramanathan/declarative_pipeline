@@ -3,7 +3,9 @@ pipeline {
   agent any
   stages {
     stage ('Env vars...') {
-      sh 'printenv'
+      steps {
+        sh 'printenv'
+      }
     }
   }
 
