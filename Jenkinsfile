@@ -7,6 +7,9 @@ pipeline {
     // python 'python2.7.12'
     git 'Default'
   }
+  docker {
+    image 'golang:1.6'
+  }
   stages {
     stage ('Decl Main') {
       steps {
