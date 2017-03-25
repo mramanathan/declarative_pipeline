@@ -5,7 +5,7 @@ pipeline {
     // git, hudson.plugins.git.GitTool, gradle, hudson.plugins.gradle.GradleInstallation, jdk, hudson.model.JDK, jgit, 
     // org.jenkinsci.plugins.gitclient.JGitTool, jgitapache, org.jenkinsci.plugins.gitclient.JGitApacheTool, maven, hudson.tasks.Maven$MavenInstallation
     // python 'python2.7.12'
-    git 'git2.10'
+    git 'Default'
   }
   stages {
     stage ('Decl Main') {
