@@ -1,4 +1,12 @@
 pipeline {
+
+  agent any
+  stages {
+    stage ('Env vars...') {
+      sh 'printenv'
+    }
+  }
+
   agent {
   // tools {
     // Valid tool types: [ant, hudson.tasks.Ant$AntInstallation, org.jenkinsci.plugins.docker.commons.tools.DockerTool, 
