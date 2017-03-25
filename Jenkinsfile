@@ -12,7 +12,7 @@ pipeline {
       stage ('Python Init') {
         steps {
           sh '''
-             echo PATH = ${PATH}
+             echo "PATH = ${PATH}"
           '''
         }
       }
